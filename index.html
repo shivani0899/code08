@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Skyline Resorts | Luxury Stay & Comfort</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navigation -->
+  <header class="nav">
+    <div class="nav-inner">
+      <div class="brand">
+        <div class="logo">SR</div>
+        <h2>Skyline Resorts</h2>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#rooms">Rooms</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact" class="cta">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="menu-toggle">☰</button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-inner">
+      <div class="hero-card">
+        <h1>Welcome to Skyline Resorts</h1>
+        <p class="lead">Experience luxury, comfort, and breathtaking views at Skyline Resorts.</p>
+        <div class="hero-actions">
+          <a href="#rooms" class="book-btn">Explore Rooms</a>
+          <a href="#contact" class="book-btn outline">Book Now</a>
+        </div>
+      </div>
+      <div class="offer-box">
+        <h3>Special Offer</h3>
+        <p>Stay 3 nights & get 20% off on dining.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Rooms Section -->
+  <section id="rooms" class="container">
+    <h2>Our Rooms & Suites</h2>
+    <div class="grid">
+      <div class="room">
+        <img src="https://s3.ap-south-1.amazonaws.com/skylineresort08.xyz/deluxe+room.jpeg">
+        <div class="room-body">
+          <div class="room-title">
+            <h3>Deluxe Room</h3>
+            <span class="price">$120/night</span>
+          </div>
+          <p class="features">Spacious, Wi-Fi, Sea View</p>
+          <a href="#contact" class="book-btn">Reserve</a>
+        </div>
+      </div>
+      <div class="room">
+        <img src="https://s3.ap-south-1.amazonaws.com/skylineresort08.xyz/excutive+room.jpeg">
+        <div class="room-body">
+          <div class="room-title">
+            <h3>Executive Suite</h3>
+            <span class="price">$200/night</span>
+          </div>
+          <p class="features">Luxury Suite, Private Balcony</p>
+          <a href="#contact" class="book-btn">Reserve</a>
+        </div>
+      </div>
+      <div class="room">
+        <img src="https://s3.ap-south-1.amazonaws.com/skylineresort08.xyz/standard+room+final.jpeg">
+        <div class="room-body">
+          <div class="room-title">
+            <h3>Standard Room</h3>
+            <span class="price">$80/night</span>
+          </div>
+          <p class="features">Comfortable & Affordable</p>
+          <a href="#contact" class="book-btn">Reserve</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section id="gallery" class="container">
+    <h2>Gallery</h2>
+    <div class="gallery-grid">
+      <img src="https://s3.ap-south-1.amazonaws.com/skylineresort08.xyz/lobby+new.jpeg">
+      <img src="https://s3.ap-south-1.amazonaws.com/skylineresort08.xyz/pool+new.jpeg">
+      <img src="https://s3.ap-south-1.amazonaws.com/skylineresort08.xyz/dinning+new.jpeg">
+      <img src="https://s3.ap-south-1.amazonaws.com/skylineresort08.xyz/view+new.jpeg">
+    </div>
+  </section>
+
+  <!-- About Us -->
+  <section id="about" class="container">
+    <h2>About Skyline Resorts</h2>
+    <div class="about-card">
+      <img src="https://s3.ap-south-1.amazonaws.com/skylineresort08.xyz/Screenshot+2025-11-06+125701.png">
+      <div>
+        <p>At Skyline Resorts, we blend luxury with comfort to create unforgettable experiences. Nestled in the heart of nature, our resort offers world-class hospitality and modern amenities.</p>
+        <p>Since 2010, we’ve been the destination of choice for travelers seeking peace, elegance, and indulgence.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="container contact-box">
+    <h2>Contact Us</h2>
+    <p>📍 Skyline Resorts, Hilltop Road, Cityname, Country</p>
+    <p>📞 +1 234 567 890</p>
+    <p>✉ contact@skylineresorts.com</p>
+
+    <form>
+      <div class="form-row">
+        <div class="field">
+          <label>Name</label>
+          <input type="text" placeholder="Your Name">
+        </div>
+        <div class="field">
+          <label>Email</label>
+          <input type="email" placeholder="Your Email">
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="field">
+          <label>Check-in</label>
+          <input type="date">
+        </div>
+        <div class="field">
+          <label>Check-out</label>
+          <input type="date">
+        </div>
+      </div>
+      <div class="field">
+        <label>Room Type</label>
+        <select>
+          <option>Standard Room</option>
+          <option>Deluxe Room</option>
+          <option>Executive Suite</option>
+        </select>
+      </div>
+      <button type="submit" class="book-btn">Send Request</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="foot-inner">
+      <p>© 2025 Skyline Resorts. All rights reserved.</p>
+      <p>Follow us on Facebook | Instagram | Twitter</p>
+    </div>
+  </footer>
+
+  <script>
+    // Mobile Menu Toggle
